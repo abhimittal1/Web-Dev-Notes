@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html LVL-4</title>
+
+    <!-- adding the favicon to the web page... -->
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiB8giTN9Hj8QAEz4DVdCtqWbfnrKoZSo2nA&usqp=CAU"
+        type="image/x-icon">
+    <style>
+        /* using the google font using the font link... very important for making the web look beautiful.. */
+        @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400&display=swap');
+
+        h2,
+        p {
+            font-family: 'Playpen Sans';
+            text-transform: capitalize;
+        }
+
+        span {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: lightblue;
+            border: 2px solid black;
+            border-radius: 10%;
+            /* box-shadow: 10px 5px 5px grey; */
+            filter: drop-shadow(10px 5px 3px grey);
+            /* filter: grayscale(100); */
+        }
+
+        li {
+            font-size: larger;
+            text-transform: capitalize;
+        }
+        h2{
+            user-select: none;
+        }
+        div {
+            background-color: antiquewhite;
+        }
+
+
+        html {
+            background-color: bisque;
+            scroll-behavior: smooth;
+        }
+
+        .image1 {
+            border: 2px solid black;
+            border-radius: 10%;
+            /* box-shadow: 10px 10px 5px black; */
+            filter: drop-shadow(6px 6px 7px red);
+        }
+
+        a {
+            text-decoration: none;
+            color: darkred;
+        }
+
+        hr {
+            border-top: 10px dotted #964d30;
+            width: 40%;
+        }
+
+        #semantic1 {
+            display: flex;
+            list-style: none;
+            align-items: baseline;
+            justify-content: space-evenly;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+
+<body>
+    <hr>
+    <p>here i am using the css properties to make it look beautiful.. like text-transform , font-size,font-family ,..etc
+        .... so on ..</p>
+    <!-- Links -->
+    <hr>
+    <p>go to the semantic section <a href="#semantic1"> Click --Here</a></p>
+    <p>go to the div section <a href="#semantic2"> Click --Here</a></p>
+    <hr>
+    <h2>Links :-</h2>
+    <p>link to the website :- <a href="https://www.google.com" target="_blank">Go to google</a> </p>
+    <p>link to the call :- <a href="tel: +91-88507657242" target="_blank">Call Me</a> </p>
+    <p>link to the mail :- <a href="mailto:abhishekmittal24gold@gmail.com" target="_blank">Mail Me</a> </p>
+    <p>we can apply the 'a' tag to the image also....</p>
+    <a href="https://www.google.com" target="_blank"><img class="image1"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRASHXthNfViR064fO-euvnLw60kLSZyZvEeA&usqp=CAU"
+            alt="image of the google"></a>
+    <p>We can bookmark the page section (particular section) using the 'a' tag's bookmark...
+        <a href="#section1">go to section (bookmark) <!--Here section1 is the 'id of that section '-->..</a> -- to make
+        the section easily accessable..
+    </p>
+    <hr>
+    <!-- div tag -->
+    <h2>use of the 'div' tag:-</h2>
+    <div class="div1" id="semantic2">
+        <p>This is a meaning less tag but using to group the tag to make the css editing easy..</p>
+        <p>div is a block element..(make it inline using the display css property.)</p>
+        <span>this is span tag .. use to style particular para or anything..</span>
+    </div>
+    <hr>
+    <!-- semantic tag -->
+    <h2>Semantic tags:-</h2>
+    <div class="semantic">
+        <p>it provides the proper meaning to the brower and the coder...</p>
+        <ul id="semantic1">
+            <li>article tag</li>
+            <li>aside tag</li>
+            <li>header tag</li>
+            <li>figure tag</li>
+            <li>footer tag</li>
+            <li>figcaption tag</li>
+            <li>main tag</li>
+            <li>nav tag</li>
+            <li>section tag</li>
+            <li>blockquote tag</li>
+            <li>so on...</li>
+        </ul>
+    </div>
+
+
+
+
+</body>
+
+</html>

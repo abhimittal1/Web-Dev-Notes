@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html LVL -2</title>
+    <style>
+        html {
+            overflow-x: hidden;
+        }
+
+        .hello {
+            background-color: aqua;
+        }
+
+        .hello p {
+            background-color: blue;
+        }
+
+        .links {
+            text-align: center;
+            background-color: antiquewhite;
+            font-size: x-large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .links a {
+            text-decoration: none;
+            background-color: blueviolet;
+            border-radius: 52%;
+            font-size: xx-large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        hr {
+            border-top: 3px dashed red;
+        }
+
+        .pre {
+            background-color: bisque;
+        }
+
+        .Table {
+            text-align: center;
+            border: 2px solid black;
+            border-collapse: collapse;
+            caption-side: bottom;
+        }
+
+        
+        .Form_using_table {
+            text-align: center;
+            border: none;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- how to add a paragraph -->
+    <p class="hello">This is a paragraph</p>
+    <!--headings   -->
+    <hr>
+    <div class="hello">
+        <p><u><b>this is showing the Heading LEVELS :- </b></u></p>
+        <h1>heading 1</h1>
+        <h2>heading 2</h2>
+        <h3>heading 3</h3>
+        <h4>heading 4</h4>
+        <h5>heading 5</h5>
+
+        <h6>heading 6</h6>
+
+        <p>Use only LEVEL ONE AND TWO in the website to make it look good ....</p>
+
+    </div>
+    <hr>
+    <!-- Hyperlink -->
+    <div class="links">
+        <p>We are creating the hyperlink to go google :- <a href="https://www.google.com" target="_blank">Go_To_Google
+            </a> </p>
+
+    </div>
+    <hr>
+    <!-- Images -->
+    <div>
+        <p>We can add the images by the link or by the computer : - (img tag hai image ka ..)</p>
+        <img src="" alt="" height="" width="">
+    </div>
+    <hr>
+    <!-- pre tag -->
+    <div class="pre">
+        <pre>this is 
+                hello 
+Abhishek Mittal
+        </pre>
+
+    </div>
+    <hr>
+    <!-- formating of the text -->
+    <b>this is <del>pragraph</del> paragraph</b> <br>
+    <i>Hello this is formating</i>
+    <p>we can do formating in (sub n sup) etc...</p>
+    <hr>
+    <!-- list  -->
+    <div>
+
+        <p>Making the list under the list means nested list </p>
+        <ul>
+            <li>Cars:-
+                <ol>
+                    <li>BMW X7</li>
+                    <li>Mec E class</li>
+                    <li>Fortuner</li>
+                    <li>MG Gloster</li>
+                </ol>
+            </li>
+            <li>Bikes :-
+                <ol>
+                    <li>Hayabusa</li>
+                    <li>Ninja H2</li>
+                    <li>BMW s1000rr</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <!-- tables -->
+    <p>by the tag :- table(for making the table) , tr(for making the table row) , td(for making the table column) </p>
+    <p>Best practice is to make them in (thead,tbody,tfoot,th) </p>
+    <p>(rowspan,colspan,rowgroup,colgroup)</p>
+    <table class="Table">
+        <caption>First savings</caption>
+        <thead>
+            <tr>
+                <th>savings</th>
+                <th>Months</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>jan</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <td>feb</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>march</td>
+                <td>300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+            <tr>
+                <td>Total</td>
+                <td>1200</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <p>creating form -- data input</p>
+    <br>
+    <h2>input tag and label tag is very useful in making the forms for getting the data form the user. <br>
+        use table tag to make the form look good --</h2>
+    <table class="Form_using_table">
+        <caption>Using table for making the form :-</caption>
+        <thead>
+            <tr>
+                <td colspan="2">Form_using_table</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label for="username">UserName:-</label></td>
+                <td><input type="text" name="username" id="" ></td>
+            </tr>
+            <tr>
+                <td><label for="Password">Password:-</label></td>
+                <td><input type="password" name="Password" id=""></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"><button>Submit</button></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    
+
+
+
+</body>
+
+</html>
