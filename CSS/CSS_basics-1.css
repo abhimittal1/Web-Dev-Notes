@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+p {
+    color: rgb(152, 108, 13);
+    text-transform: none;
+    background-color: antiquewhite;
+}
+
+.iam {
+    font-size: 1.2em;
+}
+
+.hello p {
+    color: blue;
+}
+
+table,
+td {
+    border: 2px solid lightpink;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td:nth-child(odd) {
+    background-color: aqua;
+
+}
+
+hr {
+    border-top: 10px dotted red;
+    margin: 0 auto;
+    width: 30%;
+}

@@ -1,0 +1,62 @@
+.gradient {
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    ;
+    color: white;
+}
+
+.text {
+    text-shadow: 3px 3px 2px red;
+}
+
+.box-shadow {
+    box-shadow: 3px 3px 3px 4px red;
+    padding-left: 50%;
+}
+
+.max {
+    max-height: 100px;
+    overflow: scroll;
+}
+
+ol {
+    margin: 32px;
+
+}
+
+.practice {
+    height: 400px;
+    width: 800px;
+    background-color: blanchedalmond;
+    position: relative;
+    z-index: -1;
+
+}
+.br{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.bl{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}.tr{
+    position: absolute;
+    right: 0;
+    top: 0;
+}.tl{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.cen{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+.gradient{
+    position: sticky;
+    top: 0px;
+}
